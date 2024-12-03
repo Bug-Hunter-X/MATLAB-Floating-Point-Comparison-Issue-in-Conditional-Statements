@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in MATLAB related to floating-point comparisons within conditional statements. The function `myFunction` exhibits unexpected behavior when the input `x` is exactly 10.  Due to the limitations of floating-point representation, a seemingly correct comparison might fail. The solution demonstrates a more robust approach to handle such cases.
